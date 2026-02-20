@@ -1008,155 +1008,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PTVS10VZ1USK"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PTVS10VZ1USK"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS10VZ1USK.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10V, 2000W TVS unidirectional diode, DSN1608-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TVS diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*DSN1608?2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PTVS10VZ1USK_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PTVS10VZ1USK_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_Ethernet:LAN7500-ABJZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5158,6 +5009,12 @@
 		(uuid "568147f6-895e-4b83-972d-6b69de954420")
 	)
 	(junction
+		(at 29.21 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf2bbc9-8d59-4f1b-84af-c58f8aa235e6")
+	)
+	(junction
 		(at 46.99 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5198,12 +5055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71eef07a-ce0b-4d92-b44b-bdf723cd59f7")
-	)
-	(junction
-		(at 209.55 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76e900dd-ca99-40ef-b16a-aa1afab276e3")
 	)
 	(junction
 		(at 182.88 72.39)
@@ -5282,6 +5133,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96395585-3ca2-4e42-83b7-c027d5dcd4d9")
+	)
+	(junction
+		(at 218.44 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c8865e9-72bc-494f-82ac-8e406c620d32")
 	)
 	(junction
 		(at 182.88 80.01)
@@ -6275,6 +6132,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 26.67) (xy 29.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dee810-e355-4391-bce7-8e7b6fe96efb")
+	)
+	(wire
+		(pts
 			(xy 149.86 73.66) (xy 153.67 73.66)
 		)
 		(stroke
@@ -6395,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 25.4) (xy 209.55 25.4)
+			(xy 208.28 25.4) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6442,6 +6309,16 @@
 			(type default)
 		)
 		(uuid "68875263-1c20-4692-8456-0b1d33009302")
+	)
+	(wire
+		(pts
+			(xy 29.21 26.67) (xy 41.91 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fe8f11-4e2a-4137-81e6-ef31ba02e156")
 	)
 	(polyline
 		(pts
@@ -6595,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 25.4) (xy 228.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0bc30e-1190-495c-8da5-a9ed4cfb9552")
+	)
+	(wire
+		(pts
 			(xy 240.03 76.2) (xy 246.38 76.2)
 		)
 		(stroke
@@ -6622,16 +6509,6 @@
 			(type default)
 		)
 		(uuid "8204bf9d-d91e-4704-b459-1aaf15311b20")
-	)
-	(wire
-		(pts
-			(xy 29.21 26.67) (xy 31.75 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824f0415-7963-450d-bbf7-2d7914f48404")
 	)
 	(wire
 		(pts
@@ -6905,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 16.51) (xy 209.55 17.78)
+			(xy 218.44 16.51) (xy 218.44 17.78)
 		)
 		(stroke
 			(width 0)
@@ -7195,16 +7072,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 26.67) (xy 45.72 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea9f2b1-3574-4a8b-b54a-3eae9eda9334")
-	)
-	(wire
-		(pts
 			(xy 182.88 72.39) (xy 182.88 73.66)
 		)
 		(stroke
@@ -7455,16 +7322,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 25.4) (xy 228.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1830b7b-3761-4d9c-b062-f49350408878")
-	)
-	(wire
-		(pts
 			(xy 129.54 87.63) (xy 135.89 87.63)
 		)
 		(stroke
@@ -7515,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 22.86) (xy 209.55 25.4)
+			(xy 218.44 22.86) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8414,7 +8271,7 @@
 		(uuid "9e6c6769-11f5-4e13-a5b0-81a4135e2ffa")
 	)
 	(label "VBUS"
-		(at 44.45 26.67 180)
+		(at 40.64 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9260,7 +9117,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 209.55 20.32 0)
+		(at 218.44 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9268,7 +9125,7 @@
 		(dnp no)
 		(uuid "1022cf5f-ff24-4af9-9a0a-8869f1fe442d")
 		(property "Reference" "FB4"
-			(at 211.582 19.304 0)
+			(at 220.472 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9134,7 @@
 			)
 		)
 		(property "Value" "120@100"
-			(at 211.582 21.59 0)
+			(at 220.472 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +9143,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 207.772 20.32 90)
+			(at 216.662 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9161,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 209.55 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9789,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 26.67 0)
+		(at 41.91 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9940,7 +9797,7 @@
 		(dnp no)
 		(uuid "2047fdea-8165-413f-9126-a985b371e646")
 		(property "Reference" "#FLG08"
-			(at 45.72 24.765 0)
+			(at 41.91 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +9806,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 51.816 25.146 0)
+			(at 48.006 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9832,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 26.67 0)
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,74 +10322,6 @@
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PTVS10VZ1USK")
-		(at 35.56 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "414dfb89-70d0-44e4-b34b-ec6e60aea758")
-		(property "Reference" "D1"
-			(at 35.56 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTVS10VZ1USK"
-			(at 35.56 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
-			(at 35.56 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS10VZ1USK.pdf"
-			(at 35.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V, 2000W TVS unidirectional diode, DSN1608-2"
-			(at 35.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75c4098d-ce03-412b-8762-1a4e1935a6a2")
-		)
-		(pin "1"
-			(uuid "c85901c6-c798-4092-b3c5-61ea6112a225")
-		)
-		(instances
-			(project ""
-				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13426,7 +13215,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 209.55 16.51 0)
+		(at 218.44 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13434,7 +13223,7 @@
 		(dnp no)
 		(uuid "bca25077-f573-4c8a-b4e4-48b96a9e9de4")
 		(property "Reference" "#PWR09"
-			(at 209.55 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13232,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 213.36 14.732 0)
+			(at 222.25 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 16.51 0)
+			(at 218.44 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13460,7 +13249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 16.51 0)
+			(at 218.44 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 209.55 16.51 0)
+			(at 218.44 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
