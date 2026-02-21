@@ -12984,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB_A_Plug:MOLEX_0480372200"
 			(at 19.812 16.256 0)
 			(effects
 				(font
