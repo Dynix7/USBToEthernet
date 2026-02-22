@@ -1,27 +1,27 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "USB-AP-S-RA-SMT" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "480372200" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "USB-AP-S-RA-SMT" (id 1) (at 0 0 0)
+    (property "Value" "480372200" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "CONN_USB-AP-S-RA-SMT_ADM" (id 2) (at 0 0 0)
+    (property "Footprint" "CONN_48037-2200_MOL" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "USB-AP-S-RA-SMT" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/480372200?display=pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "ki_keywords" "USB-AP-S-RA-SMT" (id 4) (at 0 0 0)
+    (property "ki_keywords" "480372200" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "CONN_USB-AP-S-RA-SMT_ADM" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "CONN_48037-2200_MOL" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "USB-AP-S-RA-SMT_1_1"
+    (symbol "480372200_1_1"
       (polyline
         (pts
           (xy 10.16 0)
@@ -167,7 +167,7 @@
         (number "4" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "USB-AP-S-RA-SMT_1_2"
+    (symbol "480372200_1_2"
       (polyline
         (pts
           (xy 7.62 0)

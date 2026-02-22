@@ -1,4 +1,4 @@
-27250267647898542
+27246724600290070
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70566,13 +70566,6 @@ solder jumper open
 0
 3
 3
-L836-1J1T-43
-BEL_L836-1J1T-43
-
-
-0
-19
-19
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -107141,13 +107134,6 @@ igbt diode module
 0
 25
 25
-USB_AP_S_RA_SMT
-CONN_USB-AP-S-RA-SMT_ADM
-
-USB-AP-S-RA-SMT 
-0
-4
-4
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

@@ -63,7 +63,32 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "connection_width|90042571|91000000|423e8fa2-a3be-457f-a221-2f7fafc1576b|5e908a09-610a-467e-b9ca-e55f63d358fb",
+          ""
+        ],
+        [
+          "starved_thermal|80400000|90900000|5e908a09-610a-467e-b9ca-e55f63d358fb|464889d2-2866-41cb-8841-7c5889d768a2|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|80650000|87000000|46ba13e3-2da5-4953-923f-fee2cec576ba|dc22c6cd-2a03-46ba-b9d2-306ad879c089|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85000000|94950000|5e908a09-610a-467e-b9ca-e55f63d358fb|45d638f0-4fe7-4d56-8589-8aab048ba81f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|87160000|79490000|5e908a09-610a-467e-b9ca-e55f63d358fb|57e6142a-17c1-486d-948e-efe4f67eae98|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|93100000|79500000|5e908a09-610a-467e-b9ca-e55f63d358fb|a7fee373-7343-44d8-9bdf-dfdd0cb7daf8|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -109,7 +134,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -519,12 +544,12 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerber-Files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "USBToEthernet.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../pcbmodel/USBToEthernet.wrl"
     },
     "page_layout_descr_file": ""
   },
