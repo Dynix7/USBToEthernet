@@ -69,7 +69,7 @@
 		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 58.275 101.7)
+		(grid_origin 54.525 101.675)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -10857,6 +10857,14 @@
 		(uuid "ff962622-a09a-4678-b8ef-9d79eaf44cbc")
 	)
 	(via
+		(at 81.925 98.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "0325d314-f95b-4ff3-bf55-297ae30c0d9d")
+	)
+	(via
 		(at 90.95 78.725)
 		(size 0.5)
 		(drill 0.3)
@@ -11191,6 +11199,15 @@
 		(uuid "e76aa087-1a44-4a6c-8060-e55266ce75f2")
 	)
 	(via
+		(at 83.4 96.7)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "e7db148e-c935-4bbf-a11a-4db20291ac7a")
+	)
+	(via
 		(at 77.45 90.45)
 		(size 0.6)
 		(drill 0.3)
@@ -11239,6 +11256,14 @@
 		(uuid "40a73054-ea1d-4049-babc-9e5cffdfe277")
 	)
 	(segment
+		(start 81.925 98.175)
+		(end 81.925 98.2)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "524f7e62-297a-4178-8cd3-1ac60c07ab66")
+	)
+	(segment
 		(start 76.2 93.725)
 		(end 79.01 93.725)
 		(width 0.2)
@@ -11253,6 +11278,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "c30c9fcb-b820-4cfc-aadd-e67ac9c436a3")
+	)
+	(segment
+		(start 83.4 96.7)
+		(end 81.925 98.175)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "d78a3d76-8ccc-4a4a-a4d3-cb3bce76dd96")
 	)
 	(segment
 		(start 79.01 93.725)
