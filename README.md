@@ -8,6 +8,7 @@ I made this PCB because I was getting into setting up some sort of homeserver us
 ![alt text](USBToEthernet.png)
 ![alt text](image2.png)
 ![alt text](image.png)
+![alt text](image3.png)
 
 # BOM
 
