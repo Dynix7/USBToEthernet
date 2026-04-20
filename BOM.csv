@@ -1,22 +1,23 @@
-Item,Description,Quantity,Unit Price,Total Price,URL,Running Total,Final Cost+Tariffs+Shipping
-LAN7500-ABZJ,USB to Ethernet controller,1,7.00,7.00,https://www.digikey.com/short/mdcr7792,7.62,
-93LC56AT-I/OT,EEPROM Memory,1,0.32,0.32,https://www.digikey.com/short/73bfdht9,7.97,
-NCP1117LPST33T3G,3.3V Voltage Regulator,1,0.37,0.37,https://www.digikey.com/short/473p12hp,8.37,
-AMS1117-1.2 SOT-223,1.2V Voltage Regulator,1,0.10,0.10,https://www.digikey.com/short/h0rzdt5j,8.48,
-TSX-3225 25.0000MF10P-C0,25Mhz Crystal Oscillator,1,0.38,0.38,https://www.digikey.com/short/rrnh3z7t,8.89,
-L836-1J1T-43,1 Gig RJ45 Connector with Magnetics,1,6.34,6.34,https://www.digikey.com/short/7jqw78q1,15.79,
-480372200,USB A Plug,1,1.32,1.32,https://www.digikey.com/short/nqqrwz7h,17.23,
-PTS645SH43SMTR92 LFS,Reset Push Button,1,0.36,0.36,https://www.digikey.com/short/fh33zphf,17.62,
-USBLC6-2SC6,Protection for USB,1,0.36,0.36,https://www.digikey.com/short/jrj8543z,18.01,
-BLM18PG121SN1D,Ferrite Bead for filtering,10,0.059,0.59,https://www.digikey.com/short/3vnw4wqt,18.65,
-LMK107BBJ106MALT,10uF Capacitors,10,0.017,0.17,https://www.digikey.com/short/p3d7pqhh,18.84,
-C0603C223K5RACTU,0.022uF Capacitors,10,0.045,0.45,https://www.digikey.com/short/45vz3m4w,19.33,
-C0603C105K4RACTU,1 uF Capacitors,20,0.011,0.22,https://www.digikey.com/short/pwz0mqd5,19.57,
-C0603C104K3RACTU,100nF Capacitors,10,0.01,0.1,https://www.digikey.com/short/j739rqr1,19.68,
-GMC10CG240F50NT,24pF Capacitors,10,0.065,0.65,https://www.digikey.com/short/mthqmqj2,20.39,
-ERA-3AEB123V,12kOhm Resistor,3,0.1,0.3,https://www.digikey.com/short/tnndp2f8,20.72,
-RC0603FR-078K06L,8.06kOhm Resistor,10,0.006,0.06,https://www.digikey.com/short/pwdhppdv,20.79,
-RMCF0603FT1K00,1kOhm Resistor,10,0.006,0.06,https://www.digikey.com/short/qqz95r7r,20.86,
-RC0603FR-1349R9L,49.9Ohm Resistor,10,0.004,0.04,https://www.digikey.com/short/wfmrvb0b,20.90,
-RC0603FR-1010KL,10k Ohm Resistor,10,0.004,0.04,https://www.digikey.com/short/p5f8hw45,20.94,
-,,,,,,,29.01
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"10k Resistor","Resistor",,0.06,"https://www.lcsc.com/product-detail/C2906861.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"8.06k Resistor","Resistor",,0.01,"https://www.lcsc.com/product-detail/C2960789.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"12k Resistor","Resistor",,0.06,"https://www.lcsc.com/product-detail/C2909316.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"1k Resistor","Resistor",,0.06,"https://www.lcsc.com/product-detail/C2906864.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"49.9 Capcitor","Capacitor",,0.06,"https://www.lcsc.com/product-detail/C2933103.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"24pF Capacitor","Capacitor",,0.12,"https://www.lcsc.com/product-detail/C281755.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"100nF Capacitor","Decoupling Capacitor",,0.10,"https://www.lcsc.com/product-detail/C60474.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"10uF Capacitor","Capacitor",,0.18,"https://www.lcsc.com/product-detail/C14445.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"1uF Capacitor","Capacitor",,0.23,"https://www.lcsc.com/product-detail/C14445.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"22nF Capacitor","Capacitor",,0.20,"https://www.lcsc.com/product-detail/C1532.html?lcsc_vid=FlAPBlRQQFgKXlxRQlkNBFNRQFdYAwVWRwQLVFxWQlkxVlNRQVdaUV1URldfVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D","LCSC"
+"120 Ohm Ferrite Bead","Power Filtering",5,0.90,"https://www.digikey.com/short/c9nm3n45","Digikey"
+"USBLC6-2SC6","Power Protection",1,0.36,"https://www.digikey.com/short/m59b7dzr","Digikey"
+"NCP1117 Voltage Regulator","Voltage Regulator",1,0.38,"https://www.digikey.com/short/pvbpmpzr","Digikey"
+"USB Plug","For Plugging Into Computer",1,1.35,"https://www.digikey.com/short/75mfb4tp","Digikey"
+"PTS645S Push Button","Reset Button",1,0.36,"https://www.digikey.com/short/q00wnt84","Digikey"
+"L836-1J1T-43 Ehternet Jack","Ethernet Jack",1,6.53,"https://www.digikey.com/short/7bz57dt5","Digikey"
+"AMS117 1.2V","Voltage Regulator for LAN7500",1,0.10,"https://www.digikey.com/short/jqn99nv8","Digikey"
+"93LC56AT-I/OT","Storage",1,0.32,"https://www.digikey.com/short/z01d9wp0","Digikey"
+"TSX-3225 25Mhz Crystal","Crystal Oscillator for LAN7500",1,0.38,"https://www.digikey.com/short/hw0jtcmv","Digikey"
+"LAN7500-ABZJ","USB to Ethernet Chip",1,7.00,"https://www.digikey.com/short/8pjfdmbz","Digikey"
+"Stencil","Stencil for Manually Assembly",1,7.11,"","JLCPCB"
+"PCB","PCB for Build",5,5.20,"","JLCPCB"

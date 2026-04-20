@@ -1594,6 +1594,7 @@
 		)
 		(embedded_fonts no)
 		(model "/home/dynix/Documents/KiCadProjects/USBToEthernet/Libraries/L836-1J1T-43/L836-1J1T-43.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
