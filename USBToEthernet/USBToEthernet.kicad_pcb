@@ -9158,17 +9158,6 @@
 			(uuid "72ce3667-1e42-456e-863c-f12949043bad")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "/home/dynix/Documents/KiCadProjects/USBToEthernet/Libraries/LAN7500_ABZJ/QFN56_8X8MC_MCH.step"
 			(offset
 				(xyz 0 0 0)
