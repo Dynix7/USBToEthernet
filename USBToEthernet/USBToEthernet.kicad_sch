@@ -6289,12 +6289,6 @@
 		(uuid "fbb0beef-2078-43f5-9083-7a7fab2fcd52")
 	)
 	(junction
-		(at 190.5 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04fdee85-308b-4937-92d5-b5f309ef22f5")
-	)
-	(junction
 		(at 175.26 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6335,6 +6329,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27bb2830-09ce-4155-b369-de41e97b235c")
+	)
+	(junction
+		(at 36.83 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3043fa21-acab-4467-aef8-fef672566936")
 	)
 	(junction
 		(at 208.28 25.4)
@@ -6385,12 +6385,6 @@
 		(uuid "4c750531-4891-49be-998a-3566acab9623")
 	)
 	(junction
-		(at 49.53 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca2b0d8-5062-4c80-a9c6-657ee43c3745")
-	)
-	(junction
 		(at 232.41 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6433,12 +6427,6 @@
 		(uuid "6f7d15ea-ac0b-47f8-8039-6b4e6a035705")
 	)
 	(junction
-		(at 190.5 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71eef07a-ce0b-4d92-b44b-bdf723cd59f7")
-	)
-	(junction
 		(at 182.88 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6469,12 +6457,6 @@
 		(uuid "80376394-eeeb-402a-9815-021eae39ad73")
 	)
 	(junction
-		(at 43.18 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83a9e2d4-5287-476e-ac05-3a36c8666400")
-	)
-	(junction
 		(at 83.82 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6497,12 +6479,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cda23bf-7846-46f4-aa57-e9e7a968f74d")
-	)
-	(junction
-		(at 36.83 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d4294ef-de39-4f98-8c00-2e4099575f63")
 	)
 	(junction
 		(at 69.85 177.8)
@@ -6577,12 +6553,6 @@
 		(uuid "c2873dbc-5f41-4322-ab28-1b285d1bd0b9")
 	)
 	(junction
-		(at 49.53 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5ac1425-eb7a-4c44-91d8-5489e259cb0e")
-	)
-	(junction
 		(at 200.66 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6593,12 +6563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cddf27bd-d6a9-49f6-b81e-2de94f980ce8")
-	)
-	(junction
-		(at 43.18 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d393243b-dfd9-4b23-9436-c35391b44fbb")
 	)
 	(junction
 		(at 30.48 93.98)
@@ -6972,16 +6936,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 190.5 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b67f2d6-12d5-4961-a17d-c856d3876445")
-	)
-	(wire
-		(pts
 			(xy 163.83 39.37) (xy 163.83 33.02)
 		)
 		(stroke
@@ -7310,6 +7264,16 @@
 		)
 		(uuid "380b2226-862a-4903-80f0-16dcbacc1471")
 	)
+	(wire
+		(pts
+			(xy 36.83 158.75) (xy 46.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388992b2-ec16-43f1-9171-4518050e7d72")
+	)
 	(polyline
 		(pts
 			(xy 284.48 12.7) (xy 284.48 118.11)
@@ -7402,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 157.48) (xy 43.18 158.75)
+			(xy 36.83 157.48) (xy 36.83 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7412,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 149.86) (xy 43.18 149.86)
+			(xy 36.83 149.86) (xy 63.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7472,16 +7436,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 149.86) (xy 63.5 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4846b869-d117-4845-a065-d7f50e1840ad")
-	)
-	(wire
-		(pts
 			(xy 208.28 25.4) (xy 208.28 29.21)
 		)
 		(stroke
@@ -7532,7 +7486,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 190.5 80.01)
+			(xy 187.96 80.01) (xy 191.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7619,16 +7573,6 @@
 			(type default)
 		)
 		(uuid "5949bf66-4ca9-4cf3-b292-b30a4a34cadb")
-	)
-	(wire
-		(pts
-			(xy 36.83 149.86) (xy 36.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "597fed28-2cc2-4ae8-9ac6-52ea7378a88b")
 	)
 	(wire
 		(pts
@@ -7740,16 +7684,6 @@
 		)
 		(uuid "65864f0e-3208-49cc-a054-7639878f2304")
 	)
-	(wire
-		(pts
-			(xy 49.53 157.48) (xy 49.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68875263-1c20-4692-8456-0b1d33009302")
-	)
 	(polyline
 		(pts
 			(xy 157.48 12.7) (xy 284.48 12.7)
@@ -7829,16 +7763,6 @@
 			(type default)
 		)
 		(uuid "74506f57-8678-4309-a665-741637b2bed3")
-	)
-	(wire
-		(pts
-			(xy 43.18 158.75) (xy 36.83 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7462aae7-fbc3-4785-a45c-5c99ca11ae7d")
 	)
 	(wire
 		(pts
@@ -7992,16 +7916,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 187.96 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87432e31-fae8-42c4-8ee2-b5c88eb7927d")
-	)
-	(wire
-		(pts
 			(xy 16.51 180.34) (xy 21.59 180.34)
 		)
 		(stroke
@@ -8152,16 +8066,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 157.48) (xy 36.83 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "943bfce5-8454-4d09-9679-8e2fe5c4c63a")
-	)
-	(wire
-		(pts
 			(xy 240.03 29.21) (xy 242.57 29.21)
 		)
 		(stroke
@@ -8242,7 +8146,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 72.39) (xy 190.5 72.39)
+			(xy 182.88 72.39) (xy 191.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8259,16 +8163,6 @@
 			(type default)
 		)
 		(uuid "9e44ed15-c4e0-45c1-9b10-ffba93a05183")
-	)
-	(wire
-		(pts
-			(xy 190.5 72.39) (xy 190.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8aac66-6b87-4317-a1b1-b16277d12ec6")
 	)
 	(wire
 		(pts
@@ -8392,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 149.86) (xy 43.18 152.4)
+			(xy 36.83 149.86) (xy 36.83 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8452,7 +8346,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 198.12 80.01)
+			(xy 191.77 78.74) (xy 191.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8482,7 +8376,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 72.39) (xy 198.12 73.66)
+			(xy 191.77 72.39) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8562,23 +8456,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 158.75) (xy 49.53 158.75)
+			(xy 46.99 158.75) (xy 63.5 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c201ba0c-d569-4493-88a2-a35cb6d2db94")
-	)
-	(wire
-		(pts
-			(xy 190.5 72.39) (xy 198.12 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20621bc-53a5-456e-b1db-8870ddd63e1b")
 	)
 	(wire
 		(pts
@@ -8619,16 +8503,6 @@
 			(type default)
 		)
 		(uuid "c61dfb7a-980a-4d84-8372-79e99483b595")
-	)
-	(wire
-		(pts
-			(xy 49.53 149.86) (xy 49.53 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c621d2e9-1d1d-4e00-9345-421f6c4dc42e")
 	)
 	(wire
 		(pts
@@ -8972,16 +8846,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 158.75) (xy 46.99 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46043a9-a2a7-40a2-8daa-9dd69c65a592")
-	)
-	(wire
-		(pts
 			(xy 129.54 92.71) (xy 135.89 92.71)
 		)
 		(stroke
@@ -8999,16 +8863,6 @@
 			(type default)
 		)
 		(uuid "e4c88a9d-1369-4443-bbc8-785c897612dd")
-	)
-	(wire
-		(pts
-			(xy 43.18 149.86) (xy 49.53 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4de2b68-2c4f-413c-810d-bea8cbb50149")
 	)
 	(wire
 		(pts
@@ -9179,16 +9033,6 @@
 			(type default)
 		)
 		(uuid "f112a7e1-424a-4267-ae5e-c15528bd4b70")
-	)
-	(wire
-		(pts
-			(xy 49.53 158.75) (xy 63.5 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21bcacc-1e8d-437c-8b6c-c93bea55175b")
 	)
 	(wire
 		(pts
@@ -10081,7 +9925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "011d51de-365a-4dbb-b574-a0332b236e5e")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 24.638 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10145,7 +9989,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10162,7 +10006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08bdc6fe-33f6-43e3-9f73-29a6916d3003")
-		(property "Reference" "C25"
+		(property "Reference" "C15"
 			(at 131.572 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10226,7 +10070,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C25")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10244,7 +10088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad82f78-ed87-486b-b4e6-6cad8480e053")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 114.3 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +10315,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -10489,7 +10333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d8f5d64-a875-45de-8b91-4631a435958c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10550,7 +10394,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1022cf5f-ff24-4af9-9a0a-8869f1fe442d")
-		(property "Reference" "FB4"
+		(property "Reference" "FB5"
 			(at 220.472 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10631,7 +10475,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "FB4")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -10730,7 +10574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136606ec-4997-47ce-bb40-c6928056d161")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10791,7 +10635,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10808,7 +10652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15a65252-78ed-4d39-9df0-cd586e75a4bc")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10869,7 +10713,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10886,7 +10730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198290e6-723b-490b-95b5-24a4415589ff")
-		(property "Reference" "C5"
+		(property "Reference" "C19"
 			(at 179.578 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +10794,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C5")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10968,7 +10812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd951b4-96ff-47ab-9512-bdfe865fc682")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR032"
 			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +10873,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR016")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11046,7 +10890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d986867-d95a-49c2-a2ab-ad2eb9adb160")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR02"
 			(at 30.48 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11106,7 +10950,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR017")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11204,7 +11048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa03dd5-00af-44e1-add3-2a15537ca9b8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 113.03 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11265,7 +11109,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11282,7 +11126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fb5f49c-e6b7-4a31-af24-16a3bb328ce3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11342,7 +11186,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2047fdea-8165-413f-9126-a985b371e646")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG02"
 			(at 39.37 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -11419,7 +11263,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#FLG08")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27fe435d-59e8-4bc7-97bd-d470aeeff634")
-		(property "Reference" "C12"
+		(property "Reference" "C3"
 			(at 30.988 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +11344,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11518,7 +11362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bcd810b-b35e-49f7-a315-aa4458660081")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 58.42 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -11579,7 +11423,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -11596,7 +11440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e307be3-32a2-4bac-91d4-ca50ba2c3f89")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR014"
 			(at 93.98 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11656,88 +11500,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33eef7d2-724a-42b7-8f4a-0286f048cbe8")
-		(property "Reference" "C23"
-			(at 192.024 74.676 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 191.77 77.724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cde853eb-579a-4d78-bbef-f23464d0ddc5")
-		)
-		(pin "2"
-			(uuid "c25ca626-df26-43e7-990b-0bb927537033")
-		)
-		(instances
-			(project "USBToEthernet"
-				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C23")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11754,7 +11517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aa0c413-0a7a-4bef-8e03-307c1fe46a72")
-		(property "Reference" "C16"
+		(property "Reference" "C5"
 			(at 65.532 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,7 +11539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.5 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11818,7 +11581,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C16")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11836,7 +11599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c246547-8e03-4c08-9dc7-be48080b8361")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG01"
 			(at 38.1 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -11897,7 +11660,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#FLG07")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11914,7 +11677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eaddf87-add2-492f-a395-cd3769031073")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 193.294 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11978,7 +11741,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11995,7 +11758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42c77190-b351-4fa0-af20-e7febfe8bab6")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 84.582 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12059,7 +11822,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12077,7 +11840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469addda-1dd7-4026-9a91-a628f7811079")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR024"
 			(at 153.67 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12138,7 +11901,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR030")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12155,7 +11918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47fca267-ad93-44a3-91c8-9ba71fbfdfe2")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 184.404 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +11982,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12236,7 +11999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4870ad17-82c8-4edf-8361-28f0937ce49e")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 18.288 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,7 +12063,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12317,7 +12080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49b5e37b-c830-4af3-ba7a-ba9f5ab1f7b5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR04"
 			(at 31.75 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12377,7 +12140,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR032")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12394,7 +12157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a4c8c33-55ae-4bf6-93e0-0ffae0352e3b")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 175.514 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12458,7 +12221,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12475,7 +12238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4aafe706-793b-489a-9545-64c4b3075985")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 56.896 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +12317,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12572,7 +12335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf9fea9-845a-4e25-887f-2bdc52364f9d")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 124.46 184.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12636,7 +12399,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50d82516-ea9c-40f6-9ad7-a93a006c0b9e")
-		(property "Reference" "C3"
+		(property "Reference" "C14"
 			(at 123.444 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12717,7 +12480,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12735,7 +12498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ca1808d-177a-4960-bb2e-928b6f39187a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 137.16 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12796,7 +12559,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12814,7 +12577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d6db4e-7345-416b-b439-e10775816283")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR021"
 			(at 129.54 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12875,7 +12638,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR033")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12893,7 +12656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68905d1e-1ac5-4f66-a66d-f6fbf747da01")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 121.92 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12954,7 +12717,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12971,7 +12734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e07fea9-de44-4ed1-9e39-e0192ef12432")
-		(property "Reference" "C26"
+		(property "Reference" "C7"
 			(at 63.246 183.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13035,7 +12798,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C26")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13052,7 +12815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fb366b0-2d07-43e5-8031-677e3ded2daf")
-		(property "Reference" "C17"
+		(property "Reference" "C8"
 			(at 89.662 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13074,7 +12837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13116,7 +12879,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C17")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13155,7 +12918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 82.042 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -13215,7 +12978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "716dddb0-e009-43e8-9c73-12455ffc4a99")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 229.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13275,7 +13038,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13292,7 +13055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7705e4be-043b-4b9f-9c5b-e11b66e4bbab")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 155.956 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13356,7 +13119,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13374,7 +13137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7861f435-d13e-4513-89e0-505820da2b9f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 107.95 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13435,7 +13198,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13452,7 +13215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f18770e-aec9-4e26-88e7-770e4c79c7d3")
-		(property "Reference" "C6"
+		(property "Reference" "C22"
 			(at 212.598 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,7 +13279,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C6")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13535,7 +13298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803c07a8-5b08-483a-a6de-22ca15d7bab8")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 53.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,7 +13525,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13779,7 +13542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88d8b62f-f5a4-4e23-9459-6bdcb5f3069d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 121.92 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13839,7 +13602,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13856,7 +13619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ae557c9-7487-42e0-a25c-763bd27a6c7c")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 109.982 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +13683,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13937,7 +13700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d3fd510-6c22-4d23-9378-e82fbbb1dec7")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 265.43 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +13764,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14018,7 +13781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e641e96-a583-4e49-a639-32a2f53ea134")
-		(property "Reference" "C7"
+		(property "Reference" "C23"
 			(at 244.348 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14082,7 +13845,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C7")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14366,7 +14129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a92bbb-2e92-4e5f-b6ce-edf6e43356bc")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 33.8933 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +14205,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14459,7 +14222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ac503ed-cdd4-4604-add2-4f66921240cf")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 201.93 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14523,7 +14286,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14540,7 +14303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cc52116-f9ec-427e-b1a4-065aa3b2beca")
-		(property "Reference" "C19"
+		(property "Reference" "C6"
 			(at 68.072 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14367,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C19")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -14621,7 +14384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dc35cd5-6130-437e-ae84-1e8c1d40188a")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 256.794 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14685,7 +14448,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14703,7 +14466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f771b8c-3f36-4129-b798-e2a689ad0ec3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 62.23 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14764,7 +14527,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14782,7 +14545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1254cf2-7ae2-4cf8-9d79-bc7e10d3fed4")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 31.75 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14843,7 +14606,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14860,7 +14623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a41a1a25-dca5-4135-8eb7-07a551d10b61")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14921,7 +14684,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14938,7 +14701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a54c998a-0c57-4f9a-8e1f-f45d04836664")
-		(property "Reference" "C8"
+		(property "Reference" "C24"
 			(at 276.098 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +14765,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C8")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15020,7 +14783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f10256-ccf2-46ff-80ea-7f20544f5d6c")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 137.16 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15085,7 +14848,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15324,7 +15087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5a5e98d-74bd-47dd-b739-b667fb09efa8")
-		(property "Reference" "C2"
+		(property "Reference" "C11"
 			(at 110.236 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15388,7 +15151,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15405,7 +15168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b99d637f-ef93-4183-acd3-0447b91b4dad")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 160.274 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15469,88 +15232,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 36.83 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbbd79b7-ab3a-40fb-ae33-53d5756e88df")
-		(property "Reference" "C13"
-			(at 37.338 153.162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 37.846 156.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.83 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 36.83 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42fdcd0d-cfc3-43cf-b5bd-9049d1fce377")
-		)
-		(pin "2"
-			(uuid "fc7bb4dd-299d-4758-8e2e-6d7570a40987")
-		)
-		(instances
-			(project "USBToEthernet"
-				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15568,7 +15250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9664b3-3915-45b4-ac32-1a9b563ed0d7")
-		(property "Reference" "C4"
+		(property "Reference" "C16"
 			(at 148.59 30.4862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15632,7 +15314,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C4")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15649,7 +15331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bca25077-f573-4c8a-b4e4-48b96a9e9de4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR029"
 			(at 218.44 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -15709,7 +15391,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR09")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15726,7 +15408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd4512c5-d09b-4586-99d2-2bc0b23403f6")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 239.014 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15788,7 +15470,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15805,7 +15487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf52c139-de8d-4850-b527-d66aa0a2c5c4")
-		(property "Reference" "R3"
+		(property "Reference" "R11"
 			(at 240.284 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15867,7 +15549,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R3")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15885,7 +15567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf64f771-a86a-4091-b5e5-087170913e56")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR025"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15945,7 +15627,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15953,7 +15635,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 154.94 0)
+		(at 36.83 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15962,8 +15644,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c02083e8-1b4a-40a3-9946-3101dbc17de6")
-		(property "Reference" "C14"
-			(at 43.688 153.162 0)
+		(property "Reference" "C4"
+			(at 37.338 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15974,7 +15656,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 44.196 156.718 0)
+			(at 37.846 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15985,7 +15667,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 154.94 0)
+			(at 36.83 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15996,7 +15678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 154.94 0)
+			(at 36.83 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16007,7 +15689,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 154.94 0)
+			(at 36.83 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16026,7 +15708,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16043,7 +15725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c080620e-920e-409b-b5fa-33149d76d391")
-		(property "Reference" "C27"
+		(property "Reference" "C9"
 			(at 93.98 183.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +15789,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C27")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16146,7 +15828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 91.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16195,87 +15877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 49.53 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c42544c4-c111-48b0-99b0-32af24c5deb4")
-		(property "Reference" "C15"
-			(at 50.038 153.162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 50.546 156.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 49.53 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "849ba2cf-3418-4781-903e-dc19ea00c762")
-		)
-		(pin "2"
-			(uuid "638da0ea-cc13-4cdd-9252-276032795270")
-		)
-		(instances
-			(project "USBToEthernet"
-				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 35.56 0)
 		(unit 1)
@@ -16287,7 +15888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4cf6e4a-5e52-4d59-b7bb-e1b2e6d1e81e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR031"
 			(at 242.57 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16348,7 +15949,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR020")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16387,7 +15988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 102.362 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -16447,7 +16048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8fc5e59-7020-4e6b-bcf1-8b5ade55dfa8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16508,7 +16109,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16525,7 +16126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca93d07f-798b-464b-9b9d-0377952da8b2")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 68.58 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -16585,7 +16186,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -16603,7 +16204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa1ae98-a805-4023-aef9-092ed5381348")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 274.32 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16664,7 +16265,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caf29d9b-8b52-4eaf-b744-49eb2173ce43")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR010"
 			(at 66.04 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16743,7 +16344,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR029")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16761,7 +16362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc83ecd-a8e9-4006-bce5-fa59324328b3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR023"
 			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16821,7 +16422,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR07")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16839,7 +16440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24cf727-47ac-4bcd-8aee-5aa8af46b95b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 46.99 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -16900,7 +16501,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16917,7 +16518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8689692-fbcd-430f-badd-d212f120864a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 36.83 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16977,7 +16578,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16995,7 +16596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d898861a-a0de-4230-9f02-44c5f3878240")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 53.34 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -17056,7 +16657,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -17064,7 +16665,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 198.12 76.2 0)
+		(at 191.77 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17073,8 +16674,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da79f31b-7592-4c41-a215-8ffa47c5aebd")
-		(property "Reference" "C24"
-			(at 199.644 74.676 0)
+		(property "Reference" "C21"
+			(at 193.294 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17085,7 +16686,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 199.39 77.724 0)
+			(at 193.04 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17096,7 +16697,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.12 76.2 0)
+			(at 191.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17107,7 +16708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 76.2 0)
+			(at 191.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17118,7 +16719,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 76.2 0)
+			(at 191.77 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17137,7 +16738,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "C24")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17233,7 +16834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd5d19a5-3673-4106-bb34-b1caedb0fb5f")
-		(property "Reference" "FB3"
+		(property "Reference" "FB4"
 			(at 151.892 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17297,7 +16898,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "FB3")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -17421,7 +17022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "def476ad-aff0-46f2-9d83-c01d9763a7a8")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 225.044 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17485,7 +17086,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17503,7 +17104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2689bd5-14f0-44e3-9cdd-b3dab6fdb349")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 99.06 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17568,7 +17169,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17586,7 +17187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e278d12e-b534-4df5-a857-0cdf51c775f7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 78.74 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -17647,7 +17248,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17665,7 +17266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5b5c9a9-dcff-488c-9ca8-587215181719")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 31.75 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -17726,7 +17327,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17744,7 +17345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea79ea47-b4d1-4063-a56a-fc90a07c8967")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR028"
 			(at 210.82 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17805,7 +17406,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR019")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17822,7 +17423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaa52049-c3e9-4def-8d58-314cffbf326c")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 168.91 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17886,7 +17487,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17904,7 +17505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f413b219-caf0-47c1-9a41-677e721c1c35")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 124.46 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17968,7 +17569,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17985,7 +17586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5ba2ac3-3397-4c22-aec5-e5a2b3f64578")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 233.68 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18049,7 +17650,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -18066,7 +17667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7621b0d-752f-4696-a374-808292955f80")
-		(property "Reference" "FB5"
+		(property "Reference" "FB3"
 			(at 120.396 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18130,7 +17731,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "FB5")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -18148,7 +17749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe9c9ce9-5463-400e-b437-06bd016a8303")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR012"
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -18209,7 +17810,7 @@
 		(instances
 			(project "USBToEthernet"
 				(path "/e2f4c3a6-d848-4365-9cff-800700e3d63d"
-					(reference "#PWR026")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
